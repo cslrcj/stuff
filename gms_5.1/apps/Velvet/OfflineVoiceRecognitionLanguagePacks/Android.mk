@@ -1,0 +1,236 @@
+###############################################################################
+# Google Search/Now offline voice recognition files: /system/usr/srec/en-US
+#
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/c_fst
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/clg
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/commands.abnf
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/compile_grammar.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/contacts.abnf
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/dict
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/dictation.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/dnn
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/endpointer_dictation.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/endpointer_voicesearch.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/ep_acoustic_model
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/grammar.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/g2p_fst
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hclg_shotword
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hmmlist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hmm_symbols
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hotword_classifier
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hotword.config
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hotword_normalizer
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hotword_prompt.txt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/hotword_word_symbols
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/metadata
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/normalizer
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/norm_fst
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/offensive_word_normalizer
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/phonelist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/phone_state_map
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/rescoring_lm
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := en-US/wordlist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/usr/srec
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
