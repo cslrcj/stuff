@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="password_key_min_height">60dp</dimen>
+    <dimen name="password_inputicon_height">20dp</dimen>
+    <dimen name="password_inputicon_width">20dp</dimen>
+    <dimen name="password_line_width">1dp</dimen>
+    <dimen name="touchid_fp_list_item_height">32dp</dimen>
+    <dimen name="touchid_fp_list_item_leftpadding">12dp</dimen>
+    <dimen name="password_key_text_size">25sp</dimen>
+    <dimen name="slide_unlock_text_size">25dp</dimen>
+
+</resources>

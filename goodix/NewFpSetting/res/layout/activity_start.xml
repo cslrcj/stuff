@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_models"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/gfx16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GFx16"/>
+        <RadioButton
+            android:id="@+id/gfx18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GFx18"/>
+        <RadioButton
+            android:id="@+id/gfx16m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GFx16M"/>
+        <RadioButton
+            android:id="@+id/gfx18m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GFx18M"/>
+        <RadioButton
+            android:id="@+id/gf816ifs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GF816IFS"/>
+        <Button
+            android:id="@+id/model_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comfirm_message"
+            android:onClick="onModelClick"
+            android:layout_marginBottom="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/notice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:onClick="onModelClick"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
