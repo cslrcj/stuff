@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能手势</string>
+    <string name="action_settings">设置</string>
+    <string name="music">播放/暂停音乐</string>
+    <string name="QQ">QQ聊天</string>
+    <string name="camera">照相机</string>
+    <string name="brower">浏览器</string>
+    <string name="pause">暂停音乐</string>
+    <string name="stop">停止音乐</string>
+    <string name="previous">播放前一首</string>
+    <string name="next">播放下一首</string>
+    <string name="phonebook">联系人</string>
+    <string name="sms">短信</string>
+    <string name="mms">彩信</string>
+    <string name="dial">拨号</string>
+    <string name="audio">播放器</string>
+    <string name="setting">设置</string>
+    <string name="search">搜索</string>
+    <string name="map">地图</string>
+    <string name="piciture">图片</string>
+    <string name="record">录音</string>
+    <string name="call">通话</string>
+    <string name="share">共享</string>
+    <string name="wechat">微信</string>
+    <string name="unlock">解锁</string>
+    <string name="switch_music">黑屏时在屏幕上平行于底部横划切歌</string>
+    <string name="doublescreensummary">黑屏时双击屏幕可使其点亮</string>
+    <string name="more">更多</string>
+    
+    <string name="key_setting">按键设置</string>
+    <string name="open_setting">开启设置</string>
+    
+    <string name="is_open">是否开启</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="key_c">手势c</string>
+    <string name="key_e">手势e</string>
+    <string name="key_m">手势m</string>
+    <string name="key_o">手势o</string>
+    <string name="key_w">手势w</string>
+    <string name="key_up">上划</string>
+    <string name="key_down">下划</string>
+    <string name="key_left_right">横划切歌</string>
+    <string name="doublescreen">双击唤醒屏幕</string>
+    
+    <!-- begin: edit by hmq 20140715 Modify for 手势翻页 -->
+    <string name="hx_setting">智能唤醒</string>
+    <string name="hx_setting_title">智能唤醒设置</string>
+    <string name="ps_setting">"隔空操作"</string>
+    <string name="ps_setting_title">"隔空操作设置"</string>
+    <string name="ps_launcher_setting">"桌面翻页"</string>
+    <string name="ps_launcher_setting_summary">"在待机桌面，在屏幕上方挥动您的手使桌面向右翻页"</string>
+    <string name="ps_gallery_setting">"图库翻页"</string>
+    <string name="ps_gallery_setting_summary">"在图库预览界面，在屏幕上方挥动您的手使照片向右翻页"</string>
+    <string name="ps_music_setting">"音乐切换"</string>
+    <string name="ps_music_setting_summary">"在音乐播放界面，在屏幕上方挥动您的手跳至下首歌"</string>
+    <string name="ps_camera_setting">"手势拍照"</string>
+    <string name="ps_camera_setting_summary">"在相机拍照界面，在屏幕上方挥动您的手拍照"</string>
+    <string name="ps_fm_setting">"手势换台"</string>
+    <string name="ps_fm_setting_summary">"在收音机播放界面，在屏幕上方挥动您的手跳至下一频道"</string>
+    <!-- end: edit by hmq 20140715 Modify for 手势翻页 -->
+
+    <!-- hejianfeng@20141020 add start for  应用不存在-->
+    <string name="app_not_exist">应用程序无法打开</string>
+    <!-- hejianfeng@20141020 add end for  应用不存在-->
+    
+    <string name="touchletter_ok">确定</string>
+    <string name="touchletter_cancel">取消</string>
+    <string name="screenon_setting">亮屏手势</string>
+    <string name="screenon_setting_title">亮屏手势设置</string>
+    <string name="multifinger_setting">多指启动相机</string>
+    <string name="multifinger_setting_summary">在任意界面多指收拢以启动相机</string>
+    <string name="doubleclick_setting">双击锁屏</string>
+    <string name="doubleclick_setting_summary">在任意界面快速双击HOME键锁屏</string>
+    <string name="threefinger_setting">三指截屏</string>
+    <string name="threefinger_setting_summary">在任意界面三指向下滑动快速截屏</string>
+    <string name="doublefinger_setting">双指调节音量</string>
+    <string name="doublefinger_setting_summary">在任意界面双指上下滑动调节音量</string>
+    <string name="singlehandle_setting">单手操作</string>
+    <string name="singlehandle_setting_summary">从屏幕左下角或右下角向屏幕中心滑动触发</string>
+
+    <string name="glove_mode_setting">手套模式</string>
+
+    <string name="air_shuffle_conflict_hall_warning">隔空操作与霍尔功能冲突，请先关闭霍尔！</string>
+    <!--hucheng add body_feeling start-->
+    <string name="body_feeling_setting">智能体感</string>
+    <string name="body_feeling_setting_title">智能体感设置</string>
+    <string name="free_screenshots">自由截屏</string>
+    <!--hucheng add body_feeling end-->
+</resources>

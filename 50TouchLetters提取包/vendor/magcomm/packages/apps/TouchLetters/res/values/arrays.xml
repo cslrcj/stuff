@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_font_types">
+        <item>@string/music</item>
+        <item>@string/camera</item>
+        <item>@string/brower</item>
+        <item>@string/pause</item>
+        <item>@string/stop</item>
+        <item>@string/previous</item>
+        <item>@string/next</item>
+        <item>@string/sms</item>
+        <item>@string/setting</item>
+        <item>@string/record</item>
+        <item>@string/unlock</item>
+        <item>@string/dial</item>
+        <item>@string/more</item>
+    </string-array>
+    
+    <string-array name="pref_font_types_values">
+        <item>@string/music_index</item>
+        <item>@string/camera_index</item>
+        <item>@string/brower_index</item>
+        <item>@string/pause_index</item>
+        <item>@string/stop_index</item>
+        <item>@string/previous_index</item>
+        <item>@string/next_index</item>
+        <item>@string/sms_index</item>
+        <item>@string/setting_index</item>
+        <item>@string/record_index</item>
+        <item>@string/unlock_index</item>
+        <item>@string/dial_index</item>
+        <item>@string/more_index</item>
+    </string-array>
+</resources>
+

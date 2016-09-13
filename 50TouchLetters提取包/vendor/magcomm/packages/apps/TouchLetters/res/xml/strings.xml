@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TouchLetters</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="pref_font_types">
+        
+        <item>@string/music</item>
+       
+        <item>@string/camera</item>
+        <item>@string/music</item>
+        <item>@string/brower</item>
+        <item>@string/stop</item>
+        <item>@string/privious</item>
+        <item>@string/next</item>
+        <item>@string/phonebook</item>
+        
+        <item>@string/sms</item>
+        <item>@string/mms</item>
+        <item>@string/dial</item>
+        <item>@string/audio</item>
+        <item>@string/setting</item>
+        <item>@string/search</item>
+        <item>@string/map</item>
+        <item>@string/piciture</item>
+        <item>@string/record</item>
+        <item>@string/call</item>
+        <item>@string/share</item>
+    </string-array>
+    <string-array name="pref_font_types_values">
+        <item>music</item>
+       
+        <item>camera</item>
+        <item>brower</item>
+        <item>pause</item>
+        <item>stop</item>
+        <item>privious</item>
+        <item>next</item>
+        <item>phonebook</item>
+        
+        <item>sms</item>
+        <item>mms</item>
+        <item>dial</item>
+        <item>audio</item>
+        <item>setting</item>
+        <item>search</item>
+        <item>map</item>
+        <item>piciture</item>
+        <item>record</item>
+        <item>call</item>
+        <item>share</item>
+    </string-array>
+</resources>

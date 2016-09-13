@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="sys_set_preacitivity">
+        <item name="android:background">#ffffffff</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:cacheColorHint">#ff0000ff</item>
+        <item name="android:textColorHighlight">#ff0000ff</item>
+        <item name="android:textColorHint">#ff0000ff</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:colorBackgroundCacheHint">#00000000</item>
+        
+    </style>
+
+</resources>

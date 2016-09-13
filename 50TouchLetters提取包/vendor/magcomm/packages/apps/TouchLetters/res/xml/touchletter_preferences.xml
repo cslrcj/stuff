@@ -1,0 +1,94 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/open_setting" >
+        <SwitchPreference
+            android:title="@string/hx_setting"
+            android:key="letter_touch"
+            android:summary="@string/is_open" 
+            android:summaryOff="@string/close"
+            android:summaryOn="@string/open"
+            android:persistent="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/hx_setting_title" >
+        <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_c" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="c_list_preferenc" 
+            android:summary="@string/dial" 
+            android:title="@string/key_c"
+            android:persistent="true"
+            android:defaultValue="@string/dial_index" />
+         <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_o" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="o_list_preferenc" 
+            android:summary="@string/sms"  
+            android:title="@string/key_o" 
+            android:persistent="true"
+            android:defaultValue="@string/sms_index"/>
+          <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_m"  
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="m_list_preferenc" 
+            android:summary="@string/music" 
+            android:title="@string/key_m"  
+            android:persistent="true"
+            android:defaultValue="@string/music_index"/>
+           <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_e" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="e_list_preferenc" 
+            android:summary="@string/brower" 
+            android:title="@string/key_e" 
+            android:persistent="true"
+            android:defaultValue="@string/brower_index" />
+           <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_w" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="w_list_preferenc" 
+            android:summary="@string/phonebook" 
+            android:title="@string/key_w" 
+            android:persistent="true"
+            android:defaultValue="@string/phonebook_index" />
+           <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_up" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="up_list_preferenc" 
+            android:summary="@string/unlock" 
+            android:title="@string/key_up" 
+            android:persistent="true"
+            android:defaultValue="@string/unlock_index" />
+           <com.magcomm.touch.NewListPreference 
+            android:dialogTitle="@string/key_down" 
+            android:entries="@array/pref_font_types" 
+            android:entryValues="@array/pref_font_types_values" 
+            android:key="down_list_preferenc" 
+            android:summary="@string/camera" 
+            android:title="@string/key_down" 
+            android:persistent="true"
+            android:defaultValue="@string/camera_index" />
+           <CheckBoxPreference 
+            android:title="@string/key_left_right" 
+            android:key="switch_music_preferenc" 
+            android:summary="@string/switch_music"  
+            android:persistent="true"
+            android:defaultValue="false"
+            android:widgetLayout="@layout/vivo_checkbox" />
+           <CheckBoxPreference
+               android:title="@string/doublescreen"
+               android:key="double"
+               android:summary="@string/doublescreensummary" 
+               android:persistent="true"
+               android:widgetLayout="@layout/vivo_checkbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

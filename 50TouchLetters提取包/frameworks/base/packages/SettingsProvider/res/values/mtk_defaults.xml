@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- M: Add for System start -->
+    <!-- M: Add for Streaming -->
+    <string name="mtk_rtsp_name" translatable="false">Streaming</string>
+    <string name="mtk_rtsp_to_proxy" translatable="false">10.0.0.172</string>
+    <string name="mtk_rtsp_netinfo" translatable="false">EGPRS,10,100</string>
+    <string name="mtk_rtsp_to_napid" translatable="false">CMCC WAP</string>
+    <string name="mtk_rtsp_max_udp_port" translatable="false">65535</string>
+    <string name="mtk_rtsp_min_udp_port" translatable="false">1024</string>
+
+    <!-- M: M: Add for HDMI -->
+    <integer name="def_hdmi_enable_status">1</integer>
+    <integer name="def_hdmi_video_resolution">100</integer>
+    <integer name="def_hdmi_video_scale">0</integer>
+    <integer name="def_hdmi_color_space">0</integer>
+    <integer name="def_hdmi_deep_color">1</integer>
+    <integer name="def_hdmi_cable_plugged">0</integer>
+
+    <!-- M: Add for enable/disable ANR mechanism from ADB command -->
+    <integer name="anr_debugging_mechanism">2</integer>
+    <integer name="anr_debugging_mechanism_status">0</integer>
+
+    <!-- M: Add for SIM-Mode -->
+    <integer name="def_dual_sim_mode">3</integer>
+    <integer name="def_single_sim_mode">1</integer>
+
+    <!-- M: Add for Voice-wake-up -->
+    <integer name="def_voice_unlock_mode">0</integer>
+    <integer name="def_voice_wakeup_mode">1</integer>
+
+    <string name="def_active_profile" translatable="false">mtk_audioprofile_general</string>
+
+    <bool name="def_ipo_setting">true</bool>
+
+    <integer name="wifi_select_ssid_type">0</integer>
+
+    <integer name="def_voice_call_reject_mode">0</integer>
+
+    <integer name="def_ivsr_setting">1</integer>
+
+    <integer name="def_tether_ipv6_feature">0</integer>
+
+    <integer name="def_ct_time_display_mode">0</integer>
+
+    <integer name="def_bg_power_saving">1</integer>
+    <!-- M: Add for System end -->
+
+    <!-- M: Add for Global start -->
+    <bool name="def_auto_time_gps">false</bool>
+
+    <integer name="def_wifi_passpoint_on">0</integer>
+
+    <integer name="def_telephony_misc_feature_config">6</integer>
+    <!-- M: Add for Global end -->
+    <!--added by bruce _hucheng for touchletter setting begein-->
+    <bool name="def_touchletter_setting" translatable="false">false</bool>
+    <bool name="def_touchletter_double_screen_setting" translatable="false">false</bool>
+    <bool name="def_touchletter_switch_music_setting" translatable="false">false</bool>
+    <bool name="def_touchps_setting" translatable="false">false</bool>
+    <bool name="def_body_feeling_setting" translatable="false">false</bool>
+    <bool name="def_free_screenshots_setting" translatable="false">false</bool>
+    <!--added by bruce _hucheng for touhcletter setting end-->
+    <!-- added by bruce _hucheng for air shuffle setting begin -->
+    <bool name="def_airshuffle_music_setting" translatable="false">false</bool>
+    <bool name="def_airshuffle_launcher_setting" translatable="false">false</bool>
+    <bool name="def_airshuffle_image_setting" translatable="false">false</bool>
+    <bool name="def_airshuffle_camera_setting" translatable="false">false</bool>
+    <bool name="def_airshuffle_fm_setting" translatable="false">false</bool>
+    <!-- added by bruce _hucheng for air shuffle setting begin -->
+    <!-- added by bruce _hucheng for screenon gesture setting begin -->
+    <bool name="def_screenon_gesture_setting" translatable="false">false</bool>
+    <bool name="def_screenon_multifinger_setting" translatable="false">false</bool>
+    <bool name="def_screenon_doubleclick_setting" translatable="false">false</bool> 
+    <bool name="def_screenon_threefinger_setting" translatable="false">false</bool> 
+    <bool name="def_screenon_doublefinger_setting" translatable="false">false</bool> 
+    <bool name="def_screenon_singlehand_setting" translatable="false">false</bool> 
+    <bool name="def_screenon_glovemode_setting" translatable="false">false</bool> 
+    <!-- added by bruce _hucheng for screenon gesture setting end -->
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TouchLetters</string>
+    <string name="action_settings">Settings</string>
+    <string name="music">play/pause music</string>
+    <string name="QQ">QQ chat</string>
+    <string name="camera">camera</string>
+    <string name="brower">brower</string>
+    <string name="pause">pause</string>
+    <string name="stop">stop</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="phonebook">phonebook</string>
+    <string name="sms">sms</string>
+    <string name="mms">mms</string>
+    <string name="dial">dial</string>
+    <string name="audio">audio</string>
+    <string name="setting">setting</string>
+    <string name="search">search</string>
+    <string name="map">map</string>
+    <string name="piciture">piciture</string>
+    <string name="record">record</string>
+    <string name="call">call</string>
+    <string name="share">share</string>
+    <string name="wechat">wechat</string>
+    <string name="unlock">unlock</string>
+    
+    <string name="music_index">music</string>
+    <string name="camera_index">camera</string>
+    <string name="brower_index">brower</string>
+    <string name="pause_index">pause</string>
+    <string name="stop_index">stop</string>
+    <string name="previous_index">previous</string>
+    <string name="next_index">next</string>
+    <string name="sms_index">sms</string>
+    <string name="dial_index">dial</string>
+    <string name="setting_index">setting</string>
+    <string name="record_index">record</string>
+    <string name="wechat_index">wechat</string>
+    <string name="unlock_index">unlock</string>
+    <string name="phonebook_index">phonebook</string>
+    <string name="map_index">map</string>
+    <string name="QQ_index">QQ chat</string>
+    <string name="more_index">more</string>
+    
+    <string name="switch_music">When screen is black,parallel to the bottom to slide to switch music</string>
+    <string name="doublescreensummary">"Double Click to light up screen when it's black"</string>
+    <string name="more">more</string>
+    
+    <string name="key_setting">key setting</string>
+    <string name="open_setting">open setting</string>
+    <string name="is_open">is_open</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="key_c">key c</string>
+    <string name="key_e">key e</string>
+    <string name="key_m">key m</string>
+    <string name="key_o">key o</string>
+    <string name="key_w">key w</string>
+    <string name="key_up">slide up</string>
+    <string name="key_down">slide down</string>
+    <string name="key_left_right">switch music</string>
+    <string name="doublescreen">double woke screen </string>
+    
+    <!-- begin: edit by hmq 20140715 Modify for 手势翻页 -->
+    <string name="hx_setting">Smart WakeUp</string>
+    <string name="hx_setting_title">Smart WakeUp Setting</string>
+    <string name="ps_setting">Air Shuffle</string>
+    <string name="ps_setting_title">Air Shuffle Setting</string>
+    <string name="ps_launcher_setting">Launcher</string>
+    <string name="ps_launcher_setting_summary">In the desktop, waive your hand on the screen and make the launcher page turn to next</string>
+    <string name="ps_gallery_setting">Gallery</string>
+    <string name="ps_gallery_setting_summary">In the gallery, waive your hand on the screen and make the picture turn to next</string>
+    <string name="ps_music_setting">Music</string>
+    <string name="ps_music_setting_summary">In the music, waive your hand on the screen and make the song turn to next</string>
+    <string name="ps_camera_setting">Camera</string>
+    <string name="ps_camera_setting_summary">In the camera, waive your hand on the screen and take photo</string>
+    <string name="ps_fm_setting">FM</string>
+    <string name="ps_fm_setting_summary">In the FM, waive your hand on the screen and make the channel turn to next</string>
+    <!-- end: edit by hmq 20140715 Modify for 手势翻页 -->
+
+    <!-- hejianfeng@20141020 add start for  应用不存在-->
+    <string name="app_not_exist">The application could not be opened</string>
+    <!-- hejianfeng@20141020 add end for  应用不存在-->
+    
+    <string name="touchletter_ok">OK</string>
+    <string name="touchletter_cancel">Cancel</string>
+    <string name="screenon_setting">Screenon Gesture</string>
+    <string name="screenon_setting_title">Screenon gesture setting</string>
+    <string name="multifinger_setting">Multi finger start camera</string>
+    <string name="multifinger_setting_summary">Multi finger furl to start camera in any interface</string>
+    <string name="doubleclick_setting">Double click lock screen</string>
+    <string name="doubleclick_setting_summary">Double click home key quickly to lock screen in any interface</string>
+    <string name="threefinger_setting">Three fingers screenshot</string>
+    <string name="threefinger_setting_summary">Three fingers slide down to screenshot quickly in any interface</string>
+    <string name="doublefinger_setting">Double fingers adjust volume</string>
+    <string name="doublefinger_setting_summary">Double fingers slide down or up to adjust volume in any interface</string>
+    <string name="singlehandle_setting">Single hand operation</string>
+    <string name="singlehandle_setting_summary">Slide to the center of screen from bottom right or bottom left to trigger</string>
+
+    <string name="glove_mode_setting">Glove mode</string>
+
+    <string name="air_shuffle_conflict_hall_warning">The air shuffle is conflict with hall function, please close hall when use the function!</string>
+    <!--hucheng add body_feeling start-->
+    <string name="body_feeling_setting">Kinect</string>
+    <string name="body_feeling_setting_title">Kinect setting</string>
+    <string name="free_screenshots">Free screenshots</string>
+    <!--hucheng add body_feeling end-->
+</resources>

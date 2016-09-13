@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/touchletter_title_height"
+    android:background="@drawable/title_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+	<FrameLayout
+    	android:id="@+id/left_title"
+    	android:layout_width="wrap_content"
+    	android:layout_height="match_parent"  	
+        android:layout_marginLeft="8dip" >
+        <Button
+        	android:id="@+id/bnLeft"
+        	android:layout_width="66dip"
+        	android:layout_height="34dip"
+        	android:background="@drawable/title_button_bg"
+        	android:textColor="@color/title_color"
+        	android:visibility="gone"
+            android:layout_gravity="center_vertical|left"/>
+	
+        <ImageButton
+            android:id="@+id/imgLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vivo_title_return"
+            android:visibility="gone"
+            android:paddingTop="15dip"
+            android:paddingRight="10dip"
+            android:paddingBottom="15dip"
+            android:layout_gravity="center_vertical|left"
+            android:background="@android:color/transparent"/>
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/titleBg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"       
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical|left"
+        android:textColor="@color/title_color"
+        android:textSize="18sp"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"/>
+
+    <FrameLayout
+    	android:id="@+id/right_title"
+    	android:layout_width="70dip"
+    	android:layout_height="wrap_content"  	
+        android:layout_marginRight="8dip" >
+        <Button
+            android:id="@+id/bnRight"
+            android:layout_width="66dip"
+            android:layout_height="34dip"
+            android:background="@drawable/title_button_bg"
+            android:textColor="@color/title_color"
+            android:visibility="gone" />
+	
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:paddingTop="6dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingBottom="6dip"/>
+    </FrameLayout>
+</LinearLayout>

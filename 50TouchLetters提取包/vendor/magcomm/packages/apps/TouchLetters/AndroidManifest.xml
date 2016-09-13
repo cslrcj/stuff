@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.magcomm.touch"
+    android:versionCode="1"
+    android:versionName="1.0" android:sharedUserId="android.uid.system" >
+<!--
+    <uses-sdk
+        android:minSdkVersion="15"
+         />
+-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />  
+    <!-- 允许应用程序访问有关的网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.camera" />  
+    <uses-feature android:name="android.hardware.camera.autofocus" /> 
+    <!-- 解锁的权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 亮屏的权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Light" >
+        <activity
+            android:name="com.magcomm.touch.TouchLetterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+	    android:theme="@android:style/Theme.Material.Light.NoActionBar"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.magcomm.touch.LetterSettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.magcomm.touch.SetPreferenceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.magcomm.touch.selectAllApp"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.magcomm.touch.ScreenStatusReceiver" >
+            <intent-filter>
+                <action android:name="magcomm.action.TOUCH_LETTER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- added by bruce for adjust touchletter -->
+        <activity
+            android:name="com.magcomm.touch.TouchLettersSetting"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.magcomm.touch.TouchLetterPrefsActivity"
+            android:label="@string/hx_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.magcomm.touch.AirShufflePrefsActivity"
+            android:label="@string/ps_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.magcomm.touch.ScreenonPrefsActivity"
+            android:label="@string/screenon_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.magcomm.touch.BodyFeelingPrefsActivity"
+            android:label="@string/body_feeling_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/notitle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	
+	<receiver android:name="com.magcomm.touch.BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+    	</receiver>
+    </application>
+
+</manifest>

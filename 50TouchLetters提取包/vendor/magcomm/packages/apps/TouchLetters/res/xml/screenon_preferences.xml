@@ -1,0 +1,55 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/open_setting" >
+        <SwitchPreference
+            android:title="@string/screenon_setting"
+            android:key="screenon_touch"
+            android:summary="@string/is_open" 
+            android:summaryOff="@string/close"
+            android:summaryOn="@string/open"
+            android:persistent="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/screenon_setting_title"
+        android:key="screenon_category_key">
+        <CheckBoxPreference 
+            android:title="@string/multifinger_setting" 
+            android:key="screenon_multifinger_key"
+            android:summary="@string/multifinger_setting_summary"   
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+        <CheckBoxPreference
+            android:title="@string/doubleclick_setting" 
+            android:key="screenon_doubleclick_key"
+            android:summary="@string/doubleclick_setting_summary" 
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+        <CheckBoxPreference 
+            android:title="@string/threefinger_setting" 
+            android:key="screenon_threefinger_key"
+            android:summary="@string/threefinger_setting_summary" 
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+        <CheckBoxPreference 
+            android:title="@string/doublefinger_setting" 
+            android:key="screenon_doublefinger_key"
+            android:summary="@string/doublefinger_setting_summary"  
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+        <CheckBoxPreference 
+            android:title="@string/singlehandle_setting" 
+            android:key="screenon_singlehandle_key"
+            android:summary="@string/singlehandle_setting_summary" 
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+
+        <CheckBoxPreference 
+            android:title="@string/glove_mode_setting" 
+            android:key="screenon_glove_key"
+            android:persistent="true"
+            android:widgetLayout="@layout/vivo_checkbox" />
+    </PreferenceCategory>
+</PreferenceScreen>
