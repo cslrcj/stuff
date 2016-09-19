@@ -78,6 +78,7 @@ import com.mediatek.incallui.ext.IInCallExt;
 /// M: For Recording @{
 import com.mediatek.incallui.recorder.PhoneRecorderUtils;
 import com.mediatek.incallui.wfc.InCallUiWfcUtils;
+import android.provider.Settings;//hejianfeng add 
 /// @}
 
 /**
@@ -290,7 +291,16 @@ public class InCallActivity extends Activity implements FragmentDisplayManager {
                 }
             }
         };
-
+        //hejianfeng add start
+        android.util.Log.v("jeff","start InCallActivity");
+        int mHallClose = Settings.System.getInt(getContentResolver(), Settings.System.HALL_CLOSE, 0);
+		int mHallChecked =Settings.System.getInt(getContentResolver(), Settings.System.HALL_SETTING, 0);
+		if(mHallClose==1&&mHallChecked==1){
+			Intent intent = new Intent(Intent.ACTION_MAIN, null);
+			intent.setClassName("com.magcomm.hall","com.magcomm.hall.MainGroup");
+			startActivity(intent);
+		}
+		//hejianfeng add end
         Log.d(this, "onCreate(): exit");
     }
 
