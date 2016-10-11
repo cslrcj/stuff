@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/pref_key_screen" >
+
+    <ListPreference
+        android:background="@drawable/ic_launcher_applocker"
+        android:entries="@array/pref_names_background"
+        android:entryValues="@array/pref_values_background"
+        android:key="@string/pref_key_background"
+        android:summary="@string/pref_desc_lockactivity_background"
+        android:title="@string/pref_tit_lockactivity_background" 
+        android:defaultValue="@string/pref_val_bg_default"/>
+
+    <!-- PASSWORD -->
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_password"
+        android:title="@string/pref_tit_cat_password" >
+
+        <!-- Vibration -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_vibrate"
+            android:key="@string/pref_key_vibrate"
+            android:summary="@string/pref_desc_vibrate_password"
+            android:title="@string/pref_tit_vibrate_password" />
+        <!-- Switch buttons -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_switch_buttons"
+            android:key="@string/pref_key_switch_buttons"
+            android:summary="@string/pref_desc_switch_buttons"
+            android:title="@string/pref_tit_switch_buttons" />
+    </PreferenceCategory>
+    <!-- PATTERN -->
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_pattern"
+        android:title="@string/pref_tit_cat_pattern" >
+
+        <!-- Pattern Color -->
+        <ListPreference
+            android:defaultValue="@string/pref_val_pattern_color_white"
+            android:entries="@array/pref_names_pattern_colors"
+            android:entryValues="@array/pref_values_pattern_colors"
+            android:key="@string/pref_key_pattern_color"
+            android:summary="@string/pref_desc_pattern_color"
+            android:title="@string/pref_tit_pattern_color" />
+        <!-- Vibration -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_vibrate"
+            android:key="@string/pref_key_vibrate"
+            android:summary="@string/pref_desc_vibrate_pattern"
+            android:title="@string/pref_tit_vibrate_pattern" />
+        <!-- Stealth mode -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_pattern_stealth"
+            android:key="@string/pref_key_pattern_stealth"
+            android:summary="@string/pref_desc_pattern_stealth"
+            android:title="@string/pref_tit_pattern_stealth" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_general"
+        android:title="@string/pref_tit_cat_general" >
+
+        <!-- Start at boot -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_start_boot"
+            android:key="@string/pref_key_start_boot"
+            android:summary="@string/pref_desc_start_boot"
+            android:title="@string/pref_tit_start_boot" />
+        <!-- Relock screenoff -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_relock_after_screenoff"
+            android:key="@string/pref_key_relock_after_screenoff"
+            android:summary="@string/pref_desc_relock_after_screenoff"
+            android:title="@string/pref_tit_relock_after_screenoff" />
+        <!-- Delay -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_delay_status"
+            android:key="@string/pref_key_delay_status"
+            android:summary="@string/pref_desc_delay_status"
+            android:title="@string/pref_tit_delay_status" />
+        <!-- Delay time -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_def_delay_time"
+            android:dependency="@string/pref_key_delay_status"
+            android:dialogMessage="@string/pref_dlgmsg_delay_time"
+            android:key="@string/pref_key_delay_time"
+            android:numeric="integer"
+            android:title="@string/pref_tit_delay_time" />
+    </PreferenceCategory>
+
+    <!-- Notification related preferences -->
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_notification"
+        android:title="@string/pref_tit_cat_notification" >
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_hide_notification_icon"
+            android:key="@string/pref_key_hide_notification_icon"
+            android:summary="@string/pref_desc_hide_notification_icon"
+            android:title="@string/pref_tit_hide_notification_icon" />
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

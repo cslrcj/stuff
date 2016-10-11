@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="application_name">程序加密</string>
+    <!-- PASSWORD -->
+    <string name="password_change_tit">密码设定</string>
+    <string name="password_change_head">输入一个新的解锁密码（至少4位）</string>
+    <string name="password_change_confirm">请再次输入密码进行确认</string>
+    <string name="password_change_saved">密码更改成功</string>
+    <string name="password_change_error">密码保存错误</string>
+    <string name="password_change_not_match">密码不匹配</string>
+    <string name="password_empty">密码不能为空</string>
+    <!-- PATTERN -->
+    <string name="pattern_change_tit">绘制图案</string>
+    <string name="pattern_detected">图案已记录</string>
+    <string name="pattern_change_head">画一个新的解锁图案（至少要连接4个点）</string>
+    <string name="pattern_change_confirm">请再次绘制图案进行确认</string>
+    <string name="pattern_change_saved">图案绘制成功</string>
+    <string name="pattern_change_error">图案保存错误</string>
+    <string name="pattern_change_not_match">图案不匹配</string>
+    
+    <string name="button_confirm">确认</string>
+    <string name="button_continue">下一步</string>
+    <string name="button_back">返回</string>
+    <string name="pref_list_lock_type_password">数字密码锁定</string>
+    <string name="pref_list_lock_type_pattern">图案锁定</string>
+    <string name="pref_tit_lock_type">锁定方式</string>
+    <string name="old_main_choose_lock_type">锁定方式</string>
+    <string name="pref_desc_lock_type">"目前: %s"</string>
+    <string name="pref_tit_lockactivity_background">锁定界面背景</string>
+    <string name="pref_desc_lockactivity_background">锁定状态的背景画面</string>
+    <string name="background_default">默认</string>
+    <string name="background_from_gallery">在图库中选择</string>
+    <string name="background_locker_blue">蓝色</string>
+    <string name="background_locker_dark_blue">深蓝色</string>
+    <string name="background_locker_green">绿色</string>
+    <string name="background_locker_purple">紫色</string>
+    <string name="background_locker_red">红色</string>
+    <string name="background_locker_turquoise">绿松石色</string>
+    <string name="background_locker_orange">橙色</string>
+    <string name="background_dialog_title">改变背景</string>
+    <string name="background_changed">背景已改变</string>
+    
+    <string name="pref_tit_cat_password">密码设置</string>
+    <string name="pref_tit_vibrate_password">启用振动模式</string>
+    <string name="pref_desc_vibrate_password">设置在输入密码时手机是否振动</string>
+    <string name="pref_tit_switch_buttons">开关按钮</string>
+    <string name="pref_desc_switch_buttons">改变确定和返回按钮的位置</string>
+    
+    <string name="pref_tit_cat_pattern">图案设置</string>
+    <string name="pref_tit_pattern_color">图案颜色</string>
+    <string name="pref_desc_pattern_color">图案圆圈的颜色</string>
+    <string name="pref_list_pattern_color_white">白色</string>
+    <string name="pref_list_pattern_color_blue">蓝色</string>
+    <string name="pref_list_pattern_color_green">绿色</string>
+    <string name="pref_tit_vibrate_pattern">启用振动模式</string>
+    <string name="pref_desc_vibrate_pattern">设置在画图案时手机是否振动</string>
+    <string name="pref_tit_pattern_stealth">隐藏图案</string>
+    <string name="pref_desc_pattern_stealth">设置在绘制图案解锁时是否隐藏图案的路径</string>
+    
+    <string name="pref_tit_cat_general">手机设置</string>
+    <string name="pref_tit_start_boot">自动启用锁定服务</string>
+    <string name="pref_desc_start_boot">手机重启后自动启用锁定服务，无论锁定服务原先是否已停用</string>
+    <string name="pref_tit_relock_after_screenoff">屏幕关闭锁定</string>
+    <string name="pref_desc_relock_after_screenoff">设置是否在屏幕关闭时重新锁定已解锁的应用</string>
+    <string name="pref_tit_delay_status">延时锁定</string>
+    <string name="pref_desc_delay_status">输入正确密码后，下一次要求输入密码时间间隔</string>
+    <string name="pref_tit_delay_time">设置延时锁定间隔时间</string>
+    <string name="pref_dlgmsg_delay_time">输入延时锁定间隔时间（单位/秒）</string>
+    
+    <string name="pref_tit_cat_notification">通知</string>
+    <string name="pref_tit_show_notification">显示通知</string>
+    <string name="pref_desc_show_notification">显示一个通知，应用程序锁定</string>
+    <string name="pref_tit_hide_notification_icon">隐藏的通知图标</string>
+    <string name="pref_desc_hide_notification_icon">这只隐藏状态栏中的通知图标</string>
+    
+    <string name="nav_status">启动服务</string>
+    <!-- Yar add start -->
+    <string name="nav_iris">虹膜解锁</string>
+    <!-- Yar add end -->
+    <string name="nav_apps">应用程序列表</string>
+    <string name="nav_change">锁定方式</string> 
+    <string name="nav_settings">设置</string>
+    
+    <string name="apps_toast_locked_single">%s 锁定</string>
+    <string name="apps_toast_locked_all">锁定所有应用</string>
+    <string name="apps_toast_unlocked_single">%s 解锁</string>
+    <string name="apps_toast_unlocked_all">所有应用取消锁定</string>
+    
+    <string name="upper_ok">确认</string>
+    <string name="upper_back">返回</string>
+    <string name="cancel">取消</string>
+    
+    <string name="pref_tit_cat_anim_show">进入动画</string>
+    <string name="pref_tit_cat_anim_hide">退出动画</string>
+    <string name="pref_tit_anim_millis">持续时间</string>
+    <string name="pref_desc_anim_millis">动画播放时间（单位/毫秒）</string>
+    <string name="pref_tit_anim_type">动画效果</string>
+    <string name="pref_desc_anim_type"></string>
+    <string name="pref_list_anim_fade">渐变效果</string>
+    <string name="pref_list_anim_slide_right">向右滑动效果</string>
+    <string name="pref_list_anim_slide_left">向左滑动效果</string>
+    <string name="pref_list_anim_none">禁用</string>
+    
+    <string name="applist_tit_apps">其他应用程序列表</string>
+    <string name="applist_tit_important">建议锁定应用程序列表</string>
+    <string name="applist_tit_system">系统应用</string>
+    <string name="applist_app_pkginstaller">App程序安装与卸载</string>
+    <string name="applist_app_sysui">最近运行任务</string>
+    
+    <string name="fragment_title_apps">应用程序列表</string>
+    <string name="fragment_title_settings">设置</string>
+
+    <string name="pref_tit_cat_launcher">启动</string>
+   	<string name="pref_tit_dial_launch">快速启动</string>
+    <string name="pref_desc_dial_launch">通过在拨号界面输入一组暗码进入本应用</string>
+    <string name="pref_tit_dial_launch_number">暗码设置</string>
+    <string name="pref_desc_dial_launch_number">设置您的暗码（建议用#开始）</string>
+    <string name="pref_tit_hide_launcher_icon">隐藏模式</string>
+    <string name="pref_desc_hide_launcher_icon">激活该模式，系统应用列表中隐藏本应用，只能通过您设置的暗码进入本应用</string>
+   
+    <string name="pattern_information_idle">绘制解锁图案</string>
+    <string name="locker_footer_default">输入解锁密码</string>
+    <string name="locker_invalid_password">密码错误</string>
+    <string name="locker_invalid_pattern">图案错误</string>
+    
+    <string name="notification_title">程序加密正在运行</string>
+    <string name="notification_state_locked">点击进入程序加密</string>
+</resources>
