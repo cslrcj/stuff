@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!--weiyawei add start-->
+    <string name="nian">/</string>
+    <string name="yue">/</string>
+    <string name="ri">/</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <!--weiyawei add end-->
+    <string name="rain">雨</string>
+    <string name="rain_middle">中雨</string>
+    <string name="rain_big">大雨</string>
+    <string name="rain_heavy">暴雨</string>
+    <string name="rain_sudden">雷阵雨</string>
+    <string name="snow">雪</string>
+    <string name="sun">晴</string>
+    <string name="yin">阴</string>
+    <string name="cloudy">多云</string>
+    
+    <string name="neterro">网络未连接</string>
+    <string name="dataerro">更新天气失败</string>
+    <string-array name="wallpapers" translatable="false">
+       <item>bg</item>
+       <item>bg1</item>
+       <item>bg2</item>
+       <item>bg3</item>
+    </string-array>
+
+</resources>

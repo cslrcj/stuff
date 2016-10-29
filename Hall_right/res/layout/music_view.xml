@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:layout_width="match_parent"
+    Android:layout_height="match_parent"
+    Android:orientation="vertical" >
+
+    <LinearLayout
+        Android:layout_width="match_parent"
+        Android:layout_height="0dp"
+        Android:gravity="center"
+        Android:layout_weight="1"
+        Android:orientation="vertical" >
+
+        <TextView
+            Android:id="@+id/songername"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:ellipsize="marquee"
+            Android:singleLine="true"
+            Android:textColor="#ffffffff"
+            Android:textSize="20sp" />
+
+        <TextView
+            Android:id="@+id/name"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:layout_marginTop="20dp"
+            Android:ellipsize="marquee"
+            Android:singleLine="true"
+            Android:textColor="#ffffffff"
+            Android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        Android:layout_width="match_parent"
+        Android:layout_height="0dp"
+        Android:layout_weight="1"
+        Android:gravity="center"
+        Android:orientation="horizontal" >
+
+        <ImageButton
+            Android:id="@+id/previous"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:background="#00000000"
+            Android:layout_weight="1"
+            Android:onClick="previous"
+            Android:src="@drawable/hhprevious" />
+
+        <ImageButton
+            Android:id="@+id/play"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:background="#00000000"
+            Android:layout_weight="1"
+            Android:onClick="pp"
+            Android:src="@drawable/hhplay" />
+
+        <ImageButton
+            Android:id="@+id/next"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:background="#00000000"
+            Android:layout_weight="1"
+            Android:onClick="next"
+            Android:src="@drawable/hhnext" />
+    </LinearLayout>
+
+</LinearLayout>
